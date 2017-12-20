@@ -1,0 +1,65 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#Header{
+   background-color: #222629;
+   color: #86C232;
+   font-family: proxima-nova, sans-serif;
+   font-size: 400%;
+   text-align: center;
+   width: 100%;
+   height: 10%;
+   padding-bottom: 10px;
+}
+
+#Doctor_login{
+	background-color: #1F2833;
+    color: #61892F;
+    font-family: proxima-nova, sans-serif;
+    text-align: center;
+    float: left; 
+    width: 50%;
+    height: 100vh;
+}
+
+#Patient_login{
+    background-color: #1F2833;
+    color: #61892F;
+    font-family: proxima-nova, sans-serif;
+    text-align: center;
+    float: right;
+    width: 50%;
+    height: 100vh;
+}
+
+#p{
+	font-family: "Arial";
+	text-align: center;
+	font-size: 100px;
+}
+
+img{
+    padding-top:20%;
+    padding-bottom:10%;
+	opacity: .7;
+	width: 45%;
+}
+
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
