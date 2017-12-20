@@ -1,0 +1,391 @@
+
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+}
+
+::selection {
+  background: rgba(52, 152, 219, 0.3);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  margin: auto;
+  background: #FFF;
+  position: relative;
+}
+
+section {
+  width: 100%;
+  height: 200px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+header {
+  position: fixed;
+  top: 0px;
+  z-index: 7000;
+  width: 100%;
+  height: 70px;
+}
+header img {
+  height: 40px;
+  position: relative;
+  top: 15px;
+  left: 48px;
+}
+header .links {
+  float: right;
+  position: relative;
+  top: 15px;
+  right: 5%;
+}
+header .links .link {
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  font-size: .9em;
+  color: #FFF;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+header .links .sign {
+  background: #FFF;
+  border-radius: 10px;
+  color: #3c4658;
+}
+header .links .link:hover {
+  opacity: .8;
+}
+
+.dabba
+{
+  margin-top: 5%;
+}
+
+.one {
+  background: #3c4658;
+  z-index: 4000;
+}
+
+h1 {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-size: 2.6em;
+  font-weight: 800;
+  color: #FFF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.alert {
+  font-family: "Lato", sans-serif;
+  width: 340px;
+  margin: auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.one h1 {
+  margin-top: 170px;
+  margin-bottom: 10px;
+}
+
+input[type="email"], input[type="password"] {
+  width: 280px;
+  background: #FFF;
+  padding: 18px 30px;
+  font-size: 1em;
+  font-family: "Lato", sans-serif;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  outline: none;
+}
+
+input[type="email"] {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  margin-top: 30px;
+
+}
+
+input[type="password"] {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+button {
+  outline: none;
+  width: 340px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  font-family: "Raleway", serif;
+  font-weight: 700;
+  color: #FFF;
+  font-size: 1em;
+  border: none;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.down {
+  width: 100%;
+  background: #5db394;
+  position: absolute;
+  bottom: 0px;
+  height: 80px;
+  cursor: pointer;
+}
+.down p {
+  width: 60%;
+  font-family: "Lato", sans-serif;
+  color: #FFF;
+  font-size: 1.1em;
+  font-weight: 400;
+  position: relative;
+  top: 12px;
+}
+.down p i {
+  margin: 0px 20px;
+}
+
+.txt-wrapper {
+  position: relative;
+  top: 50px;
+  opacity: 0;
+}
+
+.two {
+  background: #5db394;
+  z-index: 3000;
+}
+
+.icon .fa {
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 30px;
+  position: relative;
+  top: -50px;
+  opacity: 0;
+}
+
+p.txt {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #FFF;
+  width: 60%;
+  margin: auto;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.two .down {
+  background: #f94d4d;
+}
+
+.three {
+  background: #f94d4d;
+  z-index: 2000;
+}
+
+.three .down {
+  background: #59599e;
+}
+
+.four {
+  background: #59599e;
+  z-index: 1000;
+}
+
+.four .down {
+  background: #c3921f;
+}
+
+.five {
+  background: #c3921f;
+  z-index: 500;
+}
+
+.up img {
+  margin-top: 100px;
+  cursor: pointer;
+  padding: 5px;
+  height: 20px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.sign-up-box {
+  background: white;
+  width: 320px;
+  height: 60px;
+  position: fixed;
+  top: 70px;
+  right: 5%;
+  z-index: 6000;
+  border-radius: 5px;
+  display: none;
+}
+.sign-up-box .fa {
+  position: absolute;
+  top: -22px;
+  right: 35px;
+  color: white;
+}
+.sign-up-box .a-wrapper {
+  position: relative;
+  top: 10px;
+  left: 12px;
+}
+.sign-up-box .a-wrapper a {
+  font-family: "Lato", sans-serif;
+  font-size: .9em;
+  display: inline-block;
+  margin: 0px 2px;
+  padding: 10px 20px;
+  color: #555;
+  background: #EEE;
+  border-radius: 5px;
+  font-weight: 700;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.sign-up-box .a-wrapper a:hover {
+  background: #333;
+  color: #FFF;
+}
+
+.left-panel {
+  width: 150px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 6000;
+}
+.left-panel .button-wrapper {
+  margin-top: 230px;
+  position: relative;
+  left: 60px;
+}
+.left-panel .circ-button {
+  height: 8px;
+  width: 8px;
+  border-radius: 100%;
+  border: 3px solid #FFF;
+  background: transparent;
+  margin: 15px 0px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.left-panel .circ-button:hover {
+  background: #FFF;
+}
+.left-panel .select {
+  background: #FFF;
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  p.txt {
+    font-size: 1em;
+  }
+
+  .left-panel {
+    width: 100px;
+  }
+  .left-panel .button-wrapper {
+    position: relative;
+    left: 40px;
+  }
+}
+@media (max-width: 700px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.6em;
+  }
+
+  p.txt {
+    font-size: .9em;
+  }
+
+  input[type="email"], input[type="password"] {
+    width: 240px;
+  }
+
+  button {
+    width: 300px;
+  }
+
+  .down p {
+    width: 90%;
+  }
+
+  .left-panel {
+    width: 80px;
+  }
+  .left-panel .button-wrapper {
+    position: relative;
+    left: 20px;
+  }
+}
